@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: bullet
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/cloud/
+    register-with-eureka: false
+    fetch-registry: false
+server:
+  port: 9000
